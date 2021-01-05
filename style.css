@@ -1,0 +1,29 @@
+body{
+font-family: 'Roboto Slab', serif;
+margin: 0%;
+}
+h1{
+    font-size: 60px;
+    padding-top: -10%;
+}
+.heighlight{
+    color: rgb(255, 255, 255);
+}
+.background{
+  background-image: url("images/top-background.png");
+background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    min-height: 700px;
+    margin-top: 0%;
+}
+.welcome-note{
+    text-align: center;
+    
+}
+.side-img img{
+    width: 30%;
+    float: right ;
+    padding:  0 35% 10% 0;
+}
