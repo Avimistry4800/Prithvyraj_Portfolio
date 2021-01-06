@@ -1,51 +1,61 @@
 body{
-font-family: 'Roboto Slab', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
 margin: 0%;
 background-color: #F1F1F1;
 }
+p{
+    font-family: 'Roboto', sans-serif; 
+}
 h1{
-    color: white;
+    font-family:'Bebas Neue', cursive ;
+    color: #363958;
     font-size: 60px;
-    padding-top: -10%;
+    
+}
+
+.orange_highlight{
+    color: #FF8367;
 }
 h2{
-    font-size: 40px;
+    font-family:'Bebas Neue', cursive ;
+    font-size: 50px;
+    color: #363958;
 }
 .heighlight{
     color: #1a2b49;
+
 }
-.background{
-  background-image: url("images/top-background.png");
-background-size: cover;
-    background-repeat: no-repeat;
-}
+
+
 section{
     min-height: 700px;
     margin-top: 0%;
 }
-.welcome-note{
-    text-align: center;
-    
-}
-.side-img img{
-    width: 30%;
-    float: right ;
-    padding:  0 35% 10% 0;
-}
-.second-sec{
+
+.first-sec{
     background-image: url("images/2nd-sec-background.png");
 background-size: cover;
 }
 .half-width{
+    width: 40%;
     float: left;
-width: 40%;
-margin-left: 5%;
-
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-bottom: 5%;
+    margin-top: 4%;
+}
+#writing-section1{
+    max-width: 35%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 5%;
 }
 .link-buton{
     text-decoration: none;
     background-color: darkorange;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 5px;
     color: rgb(255, 255, 255);
     font-weight: 700;
@@ -54,12 +64,9 @@ margin-left: 5%;
     float:right;
     
 }
-.half-width img{
-    padding-left: 0%;
+#second-buton{
+    float: left;
 }
-.box-sec2{
-
-}
-.sec3-heading{
-    text-align: center;
+.second-section{
+    
 }
