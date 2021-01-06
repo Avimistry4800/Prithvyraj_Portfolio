@@ -6,6 +6,7 @@ background-color: #F1F1F1;
 }
 p{
     font-family: 'Roboto', sans-serif; 
+    
 }
 h1{
     font-family:'Bebas Neue', cursive ;
@@ -27,11 +28,24 @@ h3{
     font-size: 35px;
     color: #363958;
 }
+h5{
+    font-family:'Bebas Neue', cursive ;
+    font-size: 20px;
+    color: rgb(87, 84, 84);
+}
 .heighlight{
     color: #1a2b49;
 
 }
-
+.top-buton{
+    text-decoration: none;
+    background-color: none;
+    padding: 4px 10px;
+    color: rgb(58, 57, 57);
+    font-weight: 400;
+    font-size: 100%;
+    float:right;
+}
 
 section{
     min-height: 700px;
@@ -100,6 +114,17 @@ background-size: cover;
     background-position: center;
     background-size: 50%;
 }
+.link-buton-bottom{
+    text-decoration: none;
+    background-color: darkorange;
+    padding: 3px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 120%;
+    background-image: linear-gradient(45 deg, rgb(252, 174, 143) #b97a04  );
+    float:right;
+}
 .bottom-left-width{
 
     width: 25%;
@@ -111,15 +136,37 @@ background-size: cover;
     margin-bottom: 10%;
     margin-top: 4%;
 }
+.bottom-left-width h2{
+    color: white;
+}
 .bottom-right-width{
-    width: 25%;
+    
     float: right;
-    margin-left: 20%;
-    padding-left: 10%;
-    padding-top: 17%;
-    margin-top: 30%;
-    margin-bottom: 60%;
-    padding-bottom: 50%;
-    margin-top: 4%;
+    margin-right: 20%;
+    padding-right: 10%;
+    margin-top: 20%;
+    padding-top: 4%;
+}
+.bottom-email-icon{
+    float: left;
+    text-align: center;
+    margin-left: 0%;
+    margin-bottom: 2%;
+    
+}
+.email{
+    font-size: 150%;
+    
+
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+}
+.image-section-header{
+    text-align: center;
+}
+.line-one{
+    float: left;
 
 }
