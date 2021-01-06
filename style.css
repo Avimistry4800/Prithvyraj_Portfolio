@@ -22,6 +22,11 @@ h2{
     font-size: 50px;
     color: #363958;
 }
+h3{
+    font-family:'Bebas Neue', cursive ;
+    font-size: 35px;
+    color: #363958;
+}
 .heighlight{
     color: #1a2b49;
 
@@ -34,7 +39,7 @@ section{
 }
 
 .first-sec{
-    background-image: url("images/2nd-sec-background.png");
+    background-image: url("images/1st-sec-background.png");
 background-size: cover;
 }
 .half-width{
@@ -68,5 +73,24 @@ background-size: cover;
     float: left;
 }
 .second-section{
+    align-self: center;
     
+}
+#project-header{
+    margin-left: 36%;
+}
+.one-third-width{
+    max-width: 300px;
+    width: 27%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+    box-shadow: 5px 5px 10px rgb(87, 84, 81);
+    border-radius: 5px;
+    height: 20%;
+}
+.one-third-width img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
 }
